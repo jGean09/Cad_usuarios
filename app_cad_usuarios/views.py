@@ -5,3 +5,6 @@ from app_cad_usuarios import views
 
 def home(request):
     return render(request, 'usuarios/home.html')
+
+def usuarios(request):
+    pass
